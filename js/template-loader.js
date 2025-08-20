@@ -1,5 +1,5 @@
 $(function() {
-	$("#templates").load("../templates.html", function (response, status, xhr) {
+	$("#templates").load("templates.html", function (response, status, xhr) {
     if (status === "error") {
       console.error("Error loading templates.html:", xhr.status, xhr.statusText);
     } else {
